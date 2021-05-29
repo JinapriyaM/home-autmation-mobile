@@ -30,7 +30,7 @@ const Trip = props => {
     var myHeaders = new Headers();
     myHeaders.append(
       'Cookie',
-      'NID=207=AvDnCIjwI4V-LEIeI3MhjCqdlflGQg7IMzBUfMzCAg2yoYK9kIsqrknsvm_h2NXGz0E7HgZNPLmMVAe9z5cau2MHGCkDmJAOEyGElxvSC8hFBCjG7tAw9J8dOU0tV36hjBC_om_omew4H0UaZLliJcDVY0Fc0XHIXhx6skAfB_I',
+      'header eka daaana',
     );
 
     var formdata = new FormData();
@@ -48,7 +48,7 @@ const Trip = props => {
     };
 
     fetch(
-      'https://script.google.com/macros/s/AKfycbzSSGQJcgVLq0L_eZPyhabvSNrYAjtfTkalxUPFcBa7hrb7qbQa_tZ7FqQ4lHVQaVA94g/exec',
+      'sheet url with key',
       requestOptions,
     )
       .then(response => {
